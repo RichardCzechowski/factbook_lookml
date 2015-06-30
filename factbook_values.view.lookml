@@ -16,6 +16,7 @@
 
   - dimension: value
     sql: ${TABLE}.value
+    html: "{{ value }}"
 
   - dimension: version
     sql: ${TABLE}.version
